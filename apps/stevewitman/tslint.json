@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "stevewitmanMonorepo",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "stevewitman-monorepo",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}

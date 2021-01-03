@@ -22,5 +22,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "stevewitman": {
+      "tags": []
+    },
+    "stevewitman-e2e": {
+      "tags": [],
+      "implicitDependencies": ["stevewitman"]
+    }
+  }
 }
